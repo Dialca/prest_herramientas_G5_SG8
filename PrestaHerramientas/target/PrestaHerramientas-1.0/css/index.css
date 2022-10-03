@@ -136,6 +136,7 @@ nav a:hover{                                      /* HOVER: Para que me detecte 
 
 }
 
+
 .letra{
     font-family: 'Monserrat', cursive;
     color:#000000;
@@ -239,26 +240,6 @@ nav a:hover{                                      /* HOVER: Para que me detecte 
   color: #fff;
 }
 
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #28251f;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #cda45e;
-  color: #fff;
-  text-decoration: none;
-}
 
 #footer .footer-top h4 {
   font-size: 16px;
@@ -306,22 +287,7 @@ nav a:hover{                                      /* HOVER: Para que me detecte 
   color: #cda45e;
 }
 
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #28251f;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  border: 1px solid #454035;
-}
 
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-  background: #28251f;
-  color: white;
-}
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
   position: absolute;

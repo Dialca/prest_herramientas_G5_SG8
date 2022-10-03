@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
+                <link rel="icon" type="image/png" href="img/icono 1.png" /> 
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -21,13 +23,51 @@
               crossorigin="anonymous" />
 
         <script src="js/main.js"></script>
-        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/home.css" />
         <title>Inicio</title>
     </head>
+    
     <body>
+        <div class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="fa fa-phone-alt me-2"></small>
+                        <small>+601 200 3392</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="far fa-envelope-open me-2"></small>
+                        <small>prestaherramientas@gmail.com</small>
+                    </div>
+                </div>
 
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Inicio</a>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- COMIENZO BARRA DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img  alt=""/>
+                    <h1 class="m-0"><img class="img-fluid me-3" src="img/icono 2.png" alt="" width="50" height="50">Presta Herramientas</h1>
+
+                </a>
+                
+            <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="Catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contactanos.html">Contacto</a>
+                    </li>
+            </div>
+    
             <div id="user-data-profile">
                 <span class="badge badge-light mr-3" id="user-saldo"></span>
                 <div class="btn-group">
@@ -41,7 +81,7 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav>      
         <main class="p-4 d-flex justify-content-center">
             <table class="table">
                 <thead class="thead-dark">

@@ -56,8 +56,11 @@ nav a:hover{                                      /* HOVER: Para que me detecte 
   padding: 0px 100px;
   position: relative;
   top: 7px; left: 260px;
-    
+
+  
 }
+
+
 .productos{
     width: 940 px ;
     margin:0 auto;
@@ -121,41 +124,7 @@ img {
 }
 
 
-footer{
-    text-align: center;
-    background: url(imagenes/bg.jpg);
-    padding: 40px;
 
-}
-
-.copyright{
-    color:#FFFFFF;
-    font-size: 13px;
-    margin:20px;
-    
-}
-
-
-form{
-    margin: 40px 0px;
-}
-
-form label, form legend{
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-
-.input-padron{
-    display: block;
-    margin:0 0 20px;
-    padding: 10px 25px;
-    width:50%
-}
-
-.checkbox{
-    margin: 20px 0;
-}
 
 .enviar{
     width:40%; 
@@ -196,86 +165,8 @@ td,th{
 /*Aqui inicia elCSS para nuestro home*/
 
 
-.banner{
-    width: 100%;       /* Para que la imagen ocupe el 100% de la pagina */
-}
 
 
-.principal {
-    padding: 3em 0;
-    background: #FEFEFE;
-    width: 940px;
-    margin: 0 auto;
-}
-
-.titulo-principal{
-    text-align: center;
-    font-size: 2em;   /* PCon 2em le decimos al servidor que nos coloque el tamaño 2 veces mas grande de lo que */
-    margin: 0 0 1em;
-    clear: left;
-}
-
-.titulo-principal:first-letter{
-    font-weight: bold;
-}
-
-p:first-line{
-    font-style: italic;
-}
-
-.principal p{
-    margin: 0 0 1em;
-   
-
-}
-
-.principal strong{
-    font-weight: bold;
-}
-
-.principal em{
-    font-style: italic;
-}
-
-.utensilios{
-    width: 120px;
-    float:left;
-    margin: 0 20px 20 px 0;
-}
-
-.mapa{  
-    padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #888888);
-}
-
-.mapa p{
-    margin:0 0 2m;
-    text-align: center;
-
-}
-
-.mapa-contenido {
-    width: 940px;
-    margin: 0 auto;
-
-}
-
-
-.diferenciales{
-    padding: 3em 0;
-    background:  #888888;
-    
-}
-.contenido-diferenciales{
-    width: 640px;
-    margin: 0 auto;
-}
-
-.lista-diferenciales{
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
-}
 
 /*--------------------------------------------------------------
 # Footer

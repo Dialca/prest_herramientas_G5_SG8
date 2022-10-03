@@ -120,81 +120,9 @@ body:before {
     cursor: pointer;
 }
 
-.support {
-    display: flex;
-    color: #b3b3b3;
-    justify-content: space-between;
-    font-size: 12px;
-    margin-bottom: 5px;
-}
 
-.support input {
-    width: 15px;
-    height: 15px;
-}
 
-.remember {
-    display: flex;
-    align-items: center;
-}
 
-.remember span {
-    margin-right: 5px;
-    height: 25px;
-}
 
-.help a {
-    text-decoration: none;
-    color: #737373;
-}
 
-.help a:hover {
-    text-decoration: underline;
-}
-
-.login_facebook {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    color: #737373;
-}
-
-.login_facebook span {
-    margin-right: 5px;
-    font-size: 13px;
-}
-
-.login_facebook span a {
-    text-decoration: none;
-    color: #737373;
-}
-
-.sign_up {
-    color: #737373;
-    font-size: 16px;
-}
-
-.sign_up a {
-    color: #fff;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.sign_up a:hover {
-    text-decoration: underline;
-}
-
-.terms {
-    color: #737373;
-    font-size: 13px;
-}
-
-.terms a {
-    text-decoration: none;
-    color: #0071eb;
-}
-
-.terms a:hover {
-    text-decoration: underline;
-}
 

@@ -1,70 +1,43 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #333;
-  overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+    background-image: url(../img/profile.jpg);
+ background-size: cover;
+     background-color: #cccccc;
+     height: auto;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;    
+    
 }
 
-.header {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  color: #fff;
+nav{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;                          /* Sirve para ponerlo en negrita */ 
+    font-size: 19px; 
+}
+  
+nav li{
+    position: relative;
+    top: 0px; left: 160px;
 }
 
-.content {
-  max-width: 40rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: auto;
-  text-align: center;
+nav a:hover{                                      /* HOVER: Para que me detecte el movimiento del mouse y despues realice una accion */ 
+    color: #c78c19;
+    text-decoration: underline; 
 }
 
-.header-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+.miCuenta{
+    padding: 0px 100px;
+    position: relative;
+    top: 7px; left: 260px;
+
 }
 
-.header-video video {
-  min-width: 100%;
-  min-height: 100%;
-}
 
-.header-overlay {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #303952;
-  z-index: 1;
-  opacity: .25;
-}
-
-.header-content {
-  z-index: 2;
-}
-
-.header-content h1 {
-  font-size: 50px;
-  margin-bottom: 0;
-  font-family: 'Lobster', cursive;
-}
-
-.header-content p {
-  font-size: 1.5rem;
-  display: block;
-  padding-bottom: 2rem;
-}
 
 #main-menu{
     left:unset;
@@ -80,20 +53,3 @@ body {
 #form-container{
     width:40vw;
 }
-
-.btn {
-  background: #c44569;
-  color: #fff;
-  font-size: 1.2rem;
-  padding: 1rem 2rem;
-  text-decoration: none;
-}
-
-@media (max-width: 960px) {
-  .content {
-    padding: 0 3rem 0 3rem;
-  }
-}
-
-
-
