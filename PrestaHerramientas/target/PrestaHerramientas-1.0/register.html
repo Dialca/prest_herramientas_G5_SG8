@@ -15,12 +15,63 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="js/index.js"></script>
-        <link href="css/index.css" rel="stylesheet">
-        <title>Registro - PrestA Herramientas</title>
+        <link href="css/loginn.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/perfil.png" />
+        
+        <title>Registro - Presta Herramientas</title>
     </head>
     <body>
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Crear cuenta - Prestamos de herramientas</a>
+         <!-- Topbar  Comienzo  -->
+        <div class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="fa fa-phone-alt me-2"></small>
+                        <small>+601 200 3392</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="far fa-envelope-open me-2"></small>
+                        <small>prestaherramientas@gmail.com</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- COMIENZO BARRA DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img  alt=""/>
+                    <h1 class="m-0"><img class="img-fluid me-3" src="img/icono 2.png" alt="" width="50" height="50">Presta Herramientas</h1>
+
+                </a>
+                
+            <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#SobreNosotros">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contactanos.html">Contacto</a>
+                    </li>
+
+                <div class="miCuenta">
+                    <a class="navbar-brand" href="login.html">
+                        <img src="img/cuenta.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                                    
+                        Mi Cuenta   
+                                    
+                    </a>
+                </div>
+            </div>
         </nav>
         <main class="p-4 d-flex justify-content-center">
             <div class="card sizeDiv">
@@ -59,13 +110,13 @@
                         <div class="form-group">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="input-frecuente">
-                                <label class="form-check-label" for="input-premium">Frecuente</label>
+                                <label class="form-check-label" for="input-frecuente">Frecuente</label>
                             </div>
                         </div>
                         <input type="submit" class="btn btn-primary" id="register-btn" value="Registrar usuario" />
                     </form>
                     <div id="register-error" class="alert alert-danger d-none" role="alert"></div>
-                    <a href="index.html">¿Ya tienes cuenta? Iniciar sesión</a>
+                    <a href="login.html">¿Ya tienes cuenta? Iniciar sesión</a>
                 </div>
             </div> 
         </main>

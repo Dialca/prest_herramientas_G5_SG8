@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+    background-image: url(../img/profile.jpg);
+ background-size: cover;
+     background-color: #cccccc;
+     height: auto;
+    font-family: "Open Sans", sans-serif;    
+    
+}
+
+nav{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;                          /* Sirve para ponerlo en negrita */ 
+    font-size: 19px; 
+}
+  
+nav li{
+    position: relative;
+    top: 0px; left: 160px;
+}
+
+nav a:hover{                                      /* HOVER: Para que me detecte el movimiento del mouse y despues realice una accion */ 
+    color: #c78c19;
+    text-decoration: underline; 
+}
+
+.miCuenta{
+    padding: 0px 220px;
+    position: relative;
+    top: 7px; left: 260px;
+
+}
+
+
+
+#main-menu{
+    left:unset;
+    right:0;
+    
+}
+
+#ordenar-genero{
+    cursor:pointer;
+}
+
+
+#form-container{
+    width:40vw;
+}

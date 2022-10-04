@@ -102,7 +102,7 @@ function mostrarHerramienta(herramienta) {
             }
             contenido += '></td>' +
                     '<td>' + precio + '</td>' +
-                    '<td><button onclick="Alquilar(' + herramienta.id + ',' + precio + ');" class="btn btn-success" ';
+                    '<td><button onclick="alquilarHerramienta(' + herramienta.id + ',' + precio + ');" class="btn btn-success" ';
             if (user.saldo < precio) {
                 contenido += ' disabled ';
             }
